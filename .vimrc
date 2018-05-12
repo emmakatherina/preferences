@@ -23,6 +23,8 @@ set number
 " four characters wide.
 set shiftwidth=4
 set tabstop=4
+set softtabstop=4
+set expandtab
 
 " Indentation settings for using 4 spaces instead of tabs.
 " Do not change 'tabstop' from its default value of 8 with this setup.
@@ -38,3 +40,6 @@ nnoremap <C-j> <esc>:tabn<cr>
 nnoremap <C-k> <esc>:tabp<cr>
 inoremap <C-j> <esc>:tabn<cr>
 inoremap <C-k> <esc>:tabp<cr>
+
+" Set colorscheme
+colo duoduo
